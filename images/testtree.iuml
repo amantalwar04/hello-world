@@ -3,7 +3,7 @@
 {
     {T
 * ws_of
-** gst
+** aman
 *** allocators
 **** gstsdxallocator.c
 **** gstsdxallocator.h
