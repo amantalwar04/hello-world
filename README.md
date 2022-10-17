@@ -1,16 +1,42 @@
 # plantuml demos
-
+For more information, see the [PlantUML documentation](https://crashedmind.github.io/PlantUMLHitchhikersGuide).
 ## Example 1:
 
 ![Tree view 1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.github.com/amantalwar04/hello-world/master/images/testother.iuml)
 
+
 ## Example 2:
 
-![Tree view 1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.github.com/amantalwar04/hello-world/master/images/esp8266.iuml)
+```plantuml
+@startsalt
 
-## Example 3:
+{
+    {T
+* ws_of
+** aman
+*** allocators
+**** gstsdxallocator.c
+**** gstsdxallocator.h
+*** apps
+**** optical_flow
+***** main.c
+*** base
+**** gstsdxbase.c
+**** gstsdxbase.h
+*** plugins
+**** optical_flow
+***** gstsdxopticalflow.cpp
+***** gstsdxopticalflow.h
+** opticalflow
+*** src
+**** optical_flow_sds.cpp
+**** optical_flow_sds.h    
+     }
+}
 
-![Tree view 1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.github.com/amantalwar04/hello-world/master/images/testtree.iuml)
+@endsalt
+
+```
 
 # Mermaid
 For more information, see the [Mermaid documentation](https://mermaid-js.github.io/mermaid/#/).
