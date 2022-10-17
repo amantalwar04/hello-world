@@ -12,7 +12,7 @@ For more information, see the [PlantUML documentation](https://crashedmind.githu
 ![Freescale iMX7 SoC](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.github.com/amantalwar04/hello-world/master/images/freescaleimxsoc.iuml)
 
 
-## Example 3:
+## Example 4:
 
 ```plantuml
 @startsalt
@@ -44,7 +44,8 @@ For more information, see the [PlantUML documentation](https://crashedmind.githu
 @endsalt
 
 ```
-## Example 4
+
+## Example 5
 
 ```plantuml
 @startuml
@@ -61,6 +62,8 @@ You can use [[http://plantuml.com/start links in notes]] also.
 end note
 @enduml
 ```
+
+## Example 6:
 
 ```plantuml
 @startuml
