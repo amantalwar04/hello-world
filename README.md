@@ -37,6 +37,23 @@ For more information, see the [PlantUML documentation](https://crashedmind.githu
 @endsalt
 
 ```
+## Example 3
+
+```plantuml
+@startuml
+actor Bob [[http://plantuml.com/sequence]]
+actor "This is [[http://plantuml.com/sequence Alice]] actor" as Alice
+Bob -> Alice [[http://plantuml.com/start]] : hello
+note left [[http://plantuml.com/start]]
+  a note with a link
+end note
+Alice -> Bob : hello with [[http://plantuml.com/start{Tooltip for message} some link]]
+note right [[http://plantuml.com/start]] : another note
+note left of Bob
+You can use [[http://plantuml.com/start links in notes]] also.
+end note
+@enduml
+```
 
 # Mermaid
 For more information, see the [Mermaid documentation](https://mermaid-js.github.io/mermaid/#/).
