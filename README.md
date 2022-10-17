@@ -4,8 +4,15 @@ For more information, see the [PlantUML documentation](https://crashedmind.githu
 
 ![Tree view 1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.github.com/amantalwar04/hello-world/master/images/testother.iuml)
 
-
 ## Example 2:
+
+![Tree view 1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.github.com/amantalwar04/hello-world/master/images/esp8266.iuml)
+
+## Example 3:
+![Freescale iMX7 SoC](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.github.com/amantalwar04/hello-world/master/images/freescaleimxsoc.iuml)
+
+
+## Example 3:
 
 ```plantuml
 @startsalt
@@ -37,7 +44,7 @@ For more information, see the [PlantUML documentation](https://crashedmind.githu
 @endsalt
 
 ```
-## Example 3
+## Example 4
 
 ```plantuml
 @startuml
@@ -52,6 +59,44 @@ note right [[http://plantuml.com/start]] : another note
 note left of Bob
 You can use [[http://plantuml.com/start links in notes]] also.
 end note
+@enduml
+```
+
+```plantuml
+@startuml
+start
+:ClickServlet.handleRequest();
+:new page;
+if (Page.onSecurityCheck) then (true)
+  :Page.onInit();
+  if (isForward?) then (no)
+    :Process controls;
+    if (continue processing?) then (no)
+      stop
+    endif
+
+    if (isPost?) then (yes)
+      :Page.onPost();
+    else (no)
+      :Page.onGet();
+    endif
+    :Page.onRender();
+  endif
+else (false)
+endif
+
+if (do redirect?) then (yes)
+  :redirect process;
+else
+  if (do forward?) then (yes)
+    :Forward request;
+  else (no)
+    :Render page template;
+  endif
+endif
+
+stop
+
 @enduml
 ```
 
