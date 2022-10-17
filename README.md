@@ -12,21 +12,12 @@
 
 ![Tree view 1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.github.com/amantalwar04/hello-world/master/images/testtree.iuml)
 
-# Online graphics
-
-![Diagram](https://raw.github.com/amantalwar04/hello-world/master/images/diagram.png)
-
-[Edit As New](https://www.draw.io/#Uhttps%3A%2F%2Fraw.github.com%2Famantalwar04%2Fhello-world%2Fmaster%2Fimages%2Fdiagram.png)
-
-[Edit](http://jgraph.github.io/drawio-github/edit-diagram.html?repo=drawio-github&path=diagram.png) | [Edit As New](https://www.draw.io/#Uhttps%3A%2F%2Fjgraph.github.io%2Fdrawio-github%2Fdiagram.png)
-
 # Mermaid
-
-## Example 1:
-
 For more information, see the [Mermaid documentation](https://mermaid-js.github.io/mermaid/#/).
 
 To create a Mermaid diagram, add Mermaid syntax inside a fenced code block with the `mermaid` language identifier.
+
+## Example 1:
 
 Here is a simple flow chart:
 
@@ -37,3 +28,20 @@ graph TD;
     B-->D;
     C-->D;
 ```
+
+## Example 2
+
+
+```mermaid
+sequenceDiagram
+    Alice ->> Bob: Hello Bob, how are you?
+    Bob-->>John: How about you John?
+    Bob--x Alice: I am good thanks!
+    Bob-x John: I am good thanks!
+    Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
+
+    Bob-->Alice: Checking with John...
+    Alice->John: Yes... John, how are you?
+```    
+    
+    
