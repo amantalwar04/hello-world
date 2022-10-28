@@ -2,7 +2,7 @@
 
 skinparam componentStyle uml2
 
-title Packages - Component Diagram
+title Packages - Component Diagram PolarFire <sup><U+00AE></sup> SoC FPGA
 
 package "Front End" {
     component [Graphic User\nInterface] as GUI
