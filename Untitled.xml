@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd>
+    <cmdName>Name of the command</cmdName>
+    <cmdDesc>Description of the command</cmdDesc>
+    <cmdEffect>What is this command's effect. Does it create a dir, change a GUI etc.</cmdEffect>
+    <cmdCategory>Command category. Audrey, SmartTime, etc</cmdCategory>
+    <cmdReturnValue>What does the command return in pass and fail cases</cmdReturnValue>
+    <cmdGUICommand>What is the equivalent GUI command for this Tcl command</cmdGUICommand>
+    <arg>
+        <argName>Name of the argument</argName>
+        <argDesc>Description of the argument</argDesc>
+        <argMultiples>Can this arg be called multiples times</argMultiples>
+        <argFormat>
+            <argType>Data type of the argument: string, boolean</argType>
+            <argDependsOn>Does this command depend on any other command</argDependsOn>
+            <argValueNames>Valid values for the argument</argValueNames>
+            <argValueDefault>Default value for the argument</argValueDefault>
+                <argValueDesc>Description of the value</argValueDesc>
+                <argEffect>What is this arg's effect. Does it enable a checkbox, pop-up a window etc.</argEffect>
+        </argFormat>
+    </arg>
+</cmd>
+
